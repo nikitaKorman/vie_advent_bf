@@ -7,14 +7,14 @@
 
 # Commands
 
-- \> => Pointer um 1 erhöhen (zur nächsten Zelle bewegen)
-- < => Pointer um 1 reduzieren (zur vorherigen Zelle bewegen)
-- \+ => Jetzige Zellenwert um 1 erhöhen
-- \- => Zellenwert minus 1
-- . => Zellenwert als ASCII Charakter an den STDOUT schieben
-- , => Einen Charakter aus dem STDIN lesen und in die jetzige Zelle schreiben
-- [ => spring zum dazugehörigen ']' wenn die jetzige Zelle 0 ist (scoping wird respektiert)
-- \] => spring zum dazugehörigen '[' wenn die jetzige Zelle nicht 0 ist
+- `\>` => Pointer um 1 erhöhen (zur nächsten Zelle bewegen)
+- `<` => Pointer um 1 reduzieren (zur vorherigen Zelle bewegen)
+- `\+` => Jetzige Zellenwert um 1 erhöhen
+- `\-` => Zellenwert minus 1
+- `.` => Zellenwert als ASCII Charakter an den STDOUT schieben
+- `,` => Einen Charakter aus dem STDIN lesen und in die jetzige Zelle schreiben
+- `[` => spring zum dazugehörigen ']' wenn die jetzige Zelle 0 ist (scoping wird respektiert)
+- `\]` => spring zum dazugehörigen '[' wenn die jetzige Zelle nicht 0 ist
 
 # Compilierung
 
@@ -30,7 +30,7 @@ Mein(e) Interpreter:
 
 # Ausführung
 
-Am besten eignet sich der Online Interpreter von jdoodle: https://www.jdoodle.com/execute-b******k-online
+Am besten eignet sich der Online Interpreter von jdoodle: https://www.jdoodle.com/execute-b******k-online <br />
 Einfach den Code von `VIE_AdventsRaetsel.bf` im Online Interpreter einpflegen und auf oben rechts auf execute drücken.
 
 Um die BF Datei lokal auszuführen benötigt man die dotnet sdk mindestens in CLI Form auf dem Rechner
